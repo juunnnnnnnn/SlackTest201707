@@ -9,7 +9,9 @@ import com.ullink.slack.simpleslackapi.impl.SlackSessionFactory;
 public class SlackTest {
 
 	public static void main(String[] args) {
-		String token = "xoxb-203202395620-Nu3HvO60ZJW0Iy50vMCjKIxK";
+
+		XMLReader reader=new XMLReader();
+		String token = "xoxp-199592638803-199667632834-202539242225-fa99d0afa4e3956f4f71036b359cfa78";
 		String channel ="bottest";
 		String message = "Test!!!!晴れですね。雨の可能性も認識しているよ。";
 
